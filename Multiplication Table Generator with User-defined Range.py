@@ -1,6 +1,6 @@
 # Prompt the user for the number of tables and the range for each table
 o = int(input("Enter the number of multiplication tables you want to generate: "))
-m = int(input("Enter the highest number to include in each table: "))
+p = int(input("Enter the highest number to include in each table: "))
 
 def multy(n, m):
     table = ""
@@ -12,4 +12,4 @@ def multy(n, m):
 
 # Generate tables for numbers 1 through o
 for n in range(1, o + 1):
-    multy(n, m)
+    multy(n, p)
